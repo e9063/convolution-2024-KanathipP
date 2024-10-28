@@ -43,13 +43,13 @@ int main(){
     // Compute elapsed time in seconds
     double elapsed_time = (double)(end - start) / CLOCKS_PER_SEC;
 
-    // ---- Output the result ----
-    // for (int i = 0; i < NR; i++) {
-    //     printf("%d\n", R[i]);
-    // }
+    //---- Output the result ----
+    for (int i = 0; i < NR; i++) {
+        printf("%d\n", R[i]);
+    }
 
     // ---- Output the timing info to stderr ----
-    fprintf(stderr, "Sequential Time (seconds): %f\n", elapsed_time);
+    // fprintf(stderr, "Sequential Time (seconds): %f\n", elapsed_time);
 
     // ---- End output ----
 
